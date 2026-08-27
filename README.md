@@ -4,3 +4,6 @@ A collection of programs revolving around Modern Physics to teach myself Special
 # Covered topics:
 ## Special Relativity:
 ### Time Dilation:
+...
+### Length Contraction:
+...
