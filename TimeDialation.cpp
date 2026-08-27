@@ -21,7 +21,7 @@ int main(){
     cin>>velocity; 
 
     if (velocity > c) {
-    std::cerr << "Error: Velocity cannot exceed the speed of light";
+    std::cerr << "Error: Velocity cannot exceed the speed of light"; std::endl;
     return 1; 
 }
     else{
