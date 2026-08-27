@@ -1,5 +1,5 @@
 # Modern-Physics-
-A collection of programs revolving around Modern Physics to teach myself Special Relativity, Quantum Physics, and apply my C++ Programming knowledge practically. 
+A collection of programs revolving around Modern Physics to teach myself Special Relativity and Quantum Physics; As well as apply my C++ Programming knowledge practically. 
 
 # Covered topics:
 ## Special Relativity:
