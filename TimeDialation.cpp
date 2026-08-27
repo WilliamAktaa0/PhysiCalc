@@ -2,10 +2,10 @@
 #include <cmath>
 using namespace std;
 
-double timed(double v, double timeo){
+double timed(double v, double tis){
     double c=pow(10,8)*3;
-    double tis=timeo/sqrt(1-(pow(v,2)/pow(c,2)));
-    return tis;
+    double timeo=tis/sqrt(1-(pow(v,2)/pow(c,2)));
+    return timeo;
 }
 
 int main(){
