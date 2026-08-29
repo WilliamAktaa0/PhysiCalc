@@ -3,38 +3,37 @@
 using namespace std;
 
 double TFAR(double TIS, double G, double M, double R){
-    double c=pow(10,8)*3;
-    double TOE=TIS/sqrt(1.0-2*G*M/R*(/pow(c,2))); //TimeOnEarth / TimeOnSpace
+    double c = 3.0 * pow(10, 8);
+    double TOE = TIS * sqrt(1.0 - (2.0 * G * M) / (R * pow(c, 2))); 
     return TOE;
 }
 
 int main(){
     double tis;
-    double g;
-    double m;
-    double r; //distance away from source of gravity
-    double c=pow(10,8)*3;
+    double g; 
+    double m; 
+    double r;
+    double c = 3.0 * pow(10, 8);
 
+    cout << "Enter time spent in space: ";
+    cin >> tis;
 
-    cout<<"Enter time spent in space : \n";
-    cin>>tis;
+    cout << "Enter gravitational constant: ";
+    cin >> g; 
 
-    cout<<"Enter standard acceleration due to gravity: \n";
-    cin>>velocity; 
+    cout << "Enter mass of the gravitational source: ";
+    cin >> m;
 
-    cout<<"Enter Distance away from source of gravity: \n";
-    cin>>r;
+    cout << "Enter distance away from source center: ";
+    cin >> r;
 
+    if ((2.0 * g * m) / r >= pow(c, 2)) {
+        std::cerr << "Error: The coordinates put you inside or at a black hole event horizon" << std::endl;
+        return 1; 
+    }
 
-    if (velocity > c) {
-    std::cerr << "Error: Velocity cannot exceed the speed of light"; std::endl;
-    return 1; 
-}
-    else{
-
-    double timeD=TFAR(tis,g,m,r);
-    cout<<"time on Earth: "<<timeD;
+    double timeD = TFAR(tis, g, m, r);
+    cout << "Time elapsed on Earth: " << timeD << " seconds" << std::endl;
 
     return 0;
-    }
 }
