@@ -2,30 +2,30 @@
 #include <cmath>
 using namespace std;
 
-double LC(double v, double Lo){
+double timed(double v, double tis){
     double c = 3 * pow(10,8);
-    double L = Lo * sqrt(1.0 - pow(v,2) / pow(c,2));
-    return L;
+    double timeo = tis / sqrt(1.0 - (pow(v,2) / pow(c,2)));
+    return timeo;
 }
 
 int main(){
     double velocity;
-    double Lo;
+    double time;
     double c = 3 * pow(10,8);
 
-    cout << "Enter Length of object at rest: ";
-    cin >> Lo;
+    cout << "Enter time spent in space : ";
+    cin >> time;
 
     cout << "Enter velocity: ";
     cin >> velocity; 
-    
+
     if (velocity >= c) {
         std::cerr << "Error: Velocity cannot meet or exceed the speed of light!" << std::endl;
         return 1; 
     }
     else {
-        double l = LC(velocity, Lo);
-        cout << "Length of moving object to person standing still: " << l << std::endl;
+        double timeD = timed(velocity, time);
+        cout << "time on Earth: " << timeD << std::endl;
         return 0;
     }
 }

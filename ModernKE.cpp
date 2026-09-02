@@ -15,9 +15,9 @@ int main(){
     double ke;
     double c = 3.0 * pow(10,8);
 
-    cout << "Enter mass (kg): \n";
+    cout << "Enter mass (kg): ";
     cin >> mass;
-    cout << "Enter velocity (m/s): \n";
+    cout << "Enter velocity (m/s): ";
     cin >> vel;
 
     if (vel >= c) {
