@@ -1,5 +1,5 @@
-# Modern-Physics-
-A collection of programs revolving around Modern Physics to teach myself Special Relativity and Quantum Physics; As well as apply my C++ Programming knowledge practically. 
+# Random-Physics:
+A collection of programs revolving around Physics to teach myself different physics concepts I find interesting; As well as apply my C++ Programming knowledge practically. 
 
 # Covered topics:
 ## Theory of Relativity:
@@ -25,5 +25,21 @@ An actual difference of how elapsed time between two events, as measured by obse
 Length contraction is the phenomenon that a moving object's length is measured to be shorter than its proper length, which is the length as measured in the object's own rest frame. It is also known as Lorentz contraction or Lorentz–FitzGerald contraction (after Hendrik Lorentz and George Francis FitzGerald) and is usually only noticeable at a substantial fraction of the speed of light. Length contraction is only measured in the direction in which the body is travelling. For normal objects, this effect is negligible at everyday speeds, and can be ignored for all regular purposes, only becoming significant as the object approaches the speed of light relative to the observer.
 
 ### Kinetic Energy:
-In classical mechanics, the kinetic energy of a non-rotating object of mass \(m\) traveling at a speed \(v\) is equal to \(\frac{1}{2}mv^2\). However, this doesn't apply to objects who's velocity is near the speed of light, so the scientific calculator I made was specifically to account for that.
+In classical mechanics, the kinetic energy of a non-rotating object of mass *m* traveling at a speed *v* is $$E_k = \frac{1}{2}mv^2$$. However, this doesn't apply to objects who's velocity is near the speed of light, so the scientific calculator I made was specifically to account for that.
 
+## Classical Mechanics and Thermodynamics:
+
+### Thermal Power:
+Refers to the internal heat flow or total thermal energy radiated and produced by a planet.
+
+### Escape Velocity:
+
+In celestial mechanics, escape velocity or escape speed is the minimum speed needed for an object to escape from contact with or orbit of a primary body, assuming:
+
+Ballistic trajectory: no other forces are acting on the object, such as propulsion and friction
+No other gravity-producing objects exist.
+
+Although the term escape velocity is common, it is more accurately described as a speed than as a velocity because it is independent of direction.
+
+### Magnetic Field:
+A planet's magnetic field is an invisible force field that surrounds the celestial body, extending from its interior out into space.  Most of them are generated deep inside the planet by an internal "dynamo" (generates and maintain global magnetic fields through the motion of electrically conducting fluids inside planetary cores.). Without it, Earth wouldn't have protection from solar winds and cosmic radiation. Scientists also believe a strong magnetic field is crucial for protecting surface life and keeping a planet habitable over billions of years. For example, Earth has a strong magnetic field and supports life, while Mars lost its global magnetic field long ago and became a barren desert. It also allows compasses to align with magnetic north, helping humans and animals navigate across the globe.
