@@ -1,5 +1,5 @@
 # Random-Physics:
-A collection of programs revolving around Physics to teach myself different physics concepts I find interesting; As well as apply my C++ Programming knowledge practically. 
+A Collection of C++ Scientific Calculators to Teach Myself Different Physics Concepts I Find Interesting; As well as apply my C++ Programming knowledge practically. 
 
 # Covered topics:
 ## Theory of Relativity:
