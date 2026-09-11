@@ -1,4 +1,4 @@
-# Random-Physics:
+# PhysiCalc:
 A Collection of C++ Scientific Calculators to Teach Myself Different Physics Concepts I Find Interesting; As well as apply my C++ Programming knowledge practically. 
 
 # Covered topics:
