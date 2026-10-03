@@ -1,5 +1,8 @@
-#include <iostream>
 #include "../include/Stars.h"
+#include <iostream>
+#include <cmath>
+#include <numbers>
+using namespace std;
 
 Stars::Stars(double m, double gc, double r, double suT, double lum,
          std::string spT, std::string lC, std::string eS, 
